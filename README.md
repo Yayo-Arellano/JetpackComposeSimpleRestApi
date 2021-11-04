@@ -1,8 +1,9 @@
-# REST API, ROOM, Jetpack Compose
+# Simple REST API
 
-Learn how to make an Android App that will call a REST API to retrieve some data that will be 
-stored in SQLite using Room library. Build the user interface with Jetpack Compose, MVVM, 
-Dependency injection with Hilt and also add unit and instrumentation tests
+Learn how to make an Android App that will call a REST API using Retrofit to retrieve some data that will be 
+stored in SQLite using Room library. Build the user interface with Jetpack Compose.
+
+Learn MVVM, dependency injection with Hilt and also add unit and instrumentation tests
 
 Watch the video in youtube (in spanish)
 
@@ -11,6 +12,4 @@ Watch the video in youtube (in spanish)
 
 
 # Screenshots
-||
-| ---------------- |
-| ![Screenshot1](https://github.com/Yayo-Arellano/JetpackComposeSimpleRestApi/blob/master/screenshots/image1.png?raw=true) |
+![Screenshot1](https://github.com/Yayo-Arellano/JetpackComposeSimpleRestApi/blob/master/screenshots/image1.png?raw=true)

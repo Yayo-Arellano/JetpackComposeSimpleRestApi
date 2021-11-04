@@ -8,7 +8,7 @@ Learn MVVM, dependency injection with Hilt and also add unit and instrumentation
 Watch the video in youtube (in spanish)
 
 # Video
-[![Youtube](https://github.com/Yayo-Arellano/JetpackComposeSimpleRestApi/blob/master/screenshots/youtube.png?raw=true)](https://youtu.be/Td4wHh_ZivE)
+[![Youtube](https://github.com/Yayo-Arellano/JetpackComposeSimpleRestApi/blob/master/screenshots/youtube1.png?raw=true)](https://youtu.be/Td4wHh_ZivE)
 
 
 # Screenshots

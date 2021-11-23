@@ -21,10 +21,10 @@ class UserRepositoryImp @Inject constructor(
 
     override suspend fun getNewUser(): User {
         delay(3000)
-        val name = dataSource.getUserName().results[0].name!!
-        val location = dataSource.getUserLocation().results[0].location!!
-        val picture = dataSource.getUserPicture().results[0].picture!!
-        val user = User(name.first, name.last, location.city, picture.thumbnail)
+        val name = dataSource.getUserName().results.getOrNull(0)?.name
+        val location = dataSource.getUserLocation().results.getOrNull(0)?.location
+        val picture = dataSource.getUserPicture().results.getOrNull(0)?.picture
+        val user = User(name?.first.toString(), name?.last.toString(), location?.city.toString(), picture?.thumbnail.toString())
         userDao.insert(user)
         return user
     }
